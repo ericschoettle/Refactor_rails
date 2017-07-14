@@ -1,7 +1,6 @@
 class CartsController < ApplicationController
 
   def show
-    sleep 1
     if current_user
       @previous_orders = current_user.previous_orders
     end
