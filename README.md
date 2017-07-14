@@ -19,6 +19,7 @@ AJAX:
 * Delete with ajax. Remove from shopping cart, adjust price.
 
 FURTHER
+* Make a Navbar!!
 * Resize things so they don't look terrible
 * Fix the bug with a default value of one/make the field required, make the site validate that it's a positive number
 * Implement rails admin
