@@ -1,5 +1,5 @@
-<div class="col s4">
-  <h4><%= product.name %></h4>
+<div class="col s4" id="product_id_<%= product.id %>" >
+  <h4><%= link_to product.name, product_path(product), remote: true %></h4>
   <p class="product-description"><%= product.description %></p>
   <p><%= number_to_currency product.price %></p>
   <%= form_for @order_item, remote: true do |f| %>

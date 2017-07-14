@@ -1,0 +1,6 @@
+<div class="col s4" id="product_detail_id_<%= @product.id %>" >
+  <h4><%= link_to @product.name, product_path(@product), remote: true %></h4>
+  <p class="product-description"><%= @product.description %></p>
+  <p><%= @product.details %></p>
+  <p><%= number_to_currency @product.price %></p>
+</div>

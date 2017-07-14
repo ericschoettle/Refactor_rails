@@ -16,11 +16,11 @@ AJAX:
 * Product details with AJAX.
   * Add a description field to product
   * Seed a description
-* Delete with ajax. Remove from shopping cart, adjust price.
+* Delete with ajax. Remove from shopping cart, adjust price. DONE
 
 FURTHER
-* Make a Navbar!!
-* Resize things so they don't look terrible
+* Center "Home" in navbar
+* Resize things so they don't look terrible DONE
 * Fix the bug with a default value of one/make the field required, make the site validate that it's a positive number
 * Implement rails admin
 * Add flash messages for signing in, updating, signing out
