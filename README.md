@@ -6,6 +6,23 @@ To set up:
 
 * ```bundle```
 * ```rake db:setup```
-* Navigate to localhost:3000 in your web browser. 
+* Navigate to localhost:3000 in your web browser.
 
-* Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+
+# Goals:
+
+AJAX:
+* Add products to cart with AJAX. Item goes to cart, number of items increases by one.
+* Product details with AJAX.
+  * Add a description field to product
+  * Seed a description
+* Delete with ajax. Remove from shopping cart, adjust price.
+
+FURTHER
+* Resize things so they don't look terrible
+* Fix the bug with a default value of one/make the field required, make the site validate that it's a positive number
+* Implement rails admin
+* Add flash messages for signing in, updating, signing out
+* Add flash messages for adding, updating, deleting products.
+* Add paperclip for product image upload
+* Put useful links in Navbar.
