@@ -12,7 +12,7 @@ To set up:
 # Goals:
 
 AJAX:
-* Add products to cart with AJAX. Item goes to cart, number of items increases by one.
+* Add products to cart with AJAX. Item goes to cart, number of items increases by one. DONE
 * Product details with AJAX.
   * Add a description field to product
   * Seed a description
