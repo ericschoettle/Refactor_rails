@@ -19,11 +19,10 @@ AJAX:
 * Delete with ajax. Remove from shopping cart, adjust price. DONE
 
 FURTHER
-* Center "Home" in navbar
+
 * Resize things so they don't look terrible DONE
 * Fix the bug with a default value of one/make the field required, make the site validate that it's a positive number
 * Implement rails admin
 * Add flash messages for signing in, updating, signing out
 * Add flash messages for adding, updating, deleting products.
 * Add paperclip for product image upload
-* Put useful links in Navbar.

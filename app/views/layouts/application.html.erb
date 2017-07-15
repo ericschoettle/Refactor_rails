@@ -9,8 +9,8 @@
   </head>
   <nav>
     <div class="nav-wrapper">
-      <%= link_to "Home", products_path, {class: "brand-logo"} %>
       <ul id="nav-mobile" class="left hide-on-sm-and-down">
+        <li><%= link_to "Home", products_path, {class: "brand-logo"} %></li>
         <li id="navbar-cart"><%= link_to "Cart | Total items: #{ cart_items }", cart_path %></li>
       </ul>
       <ul id="nav-mobile" class="right hide-on-sm-and-down">

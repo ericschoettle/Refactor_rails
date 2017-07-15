@@ -1,9 +1,7 @@
 if ($("#product_detail_id_<%= @product.id %>").length) {
-  console.log($("#product_detail_id_<%= @product.id %>").length)
   $("#product_id_<%= @product.id %>").toggle()
   $("#product_detail_id_<%= @product.id %>").toggle()
 }
 else {
-  console.log($("#product_detail_id_<%= @product.id %>".length))
   $("#product_id_<%= @product.id %>").hide().after("<p> <%= j render 'products/show_details' %></p>")
 }
