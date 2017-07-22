@@ -10,7 +10,7 @@ class UsersController < ApplicationController
       flash[:message] = "Signed up Successfully!"
       redirect_to '/'
     else
-      flash[:error] = "Invalid email or password - password must be 8 characters and fields must match"
+      flash[:error] = "Invalid email or password - 8 characters minimum, both fields must match"
       redirect_to '/sign_up'
     end
   end
