@@ -13,7 +13,7 @@ To set up:
 
 AJAX:
 * Add products to cart with AJAX. Item goes to cart, number of items increases by one. DONE
-* Product details with AJAX.
+* Product details with AJAX. DONE
   * Add a description field to product
   * Seed a description
 * Delete with ajax. Remove from shopping cart, adjust price. DONE
@@ -22,7 +22,7 @@ FURTHER
 
 * Resize things so they don't look terrible DONE
 * Fix the bug with a default value of one/make the field required, make the site validate that it's a positive number
-* Implement rails admin
-* Add flash messages for signing in, updating, signing out
-* Add flash messages for adding, updating, deleting products.
+* Implement rails  DONE
+* Add flash messages for signing in, updating, signing out DONE
+* Add flash messages for adding, updating, deleting products. DONE
 * Add paperclip for product image upload

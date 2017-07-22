@@ -1,1 +1,5 @@
-$('#navbar-cart').html('<%= link_to "Cart | Total items: #{ cart_items }", cart_path %>')
+if ('<%= @order.save %>' != "false") {
+  $('#navbar-cart').html('<%= link_to "Cart | Total items: #{ cart_items }", cart_path %>')
+} else {
+  alert ("Order failed - number must be between 1 and 10")
+}
